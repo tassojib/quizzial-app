@@ -2,7 +2,7 @@ import React from "react";
 
 function IntroSection(props) {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
       <h1 className="mb-2 font-karla text-3xl font-bold text-center text-blue-900">
         Quizzical
       </h1>
