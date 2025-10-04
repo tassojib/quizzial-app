@@ -1,7 +1,6 @@
-
 import { useState, useEffect } from "react";
 import IntroSection from "./IntroSection.jsx";
-import { questionsArr } from "./questionsArr.js";
+
 import Question from "./Question.jsx";
 
 function App() {
@@ -74,7 +73,7 @@ function App() {
             You scored {score}/5 correct answers
           </h3>
           <button
-            className="rounded-[10px] font-inter font-semibold text-center py-2 px-4 text-[#F5F7FB] text-xs bg-[#4D5B9E]"
+            className="rounded-[10px] font-inter text-nowrap font-semibold text-center py-2 px-4 text-[#F5F7FB] text-xs bg-[#4D5B9E]"
             onClick={playQuiz}
           >
             Play Again
